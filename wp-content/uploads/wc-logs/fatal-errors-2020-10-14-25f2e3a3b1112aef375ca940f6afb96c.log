@@ -1,0 +1,12 @@
+2020-10-14T00:06:38+00:00 CRITICAL syntax error, unexpected 'class' (T_CLASS) in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php on line 43
+
+2020-10-14T00:06:51+00:00 CRITICAL syntax error, unexpected 'align' (T_STRING), expecting ')' in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php on line 43
+
+2020-10-14T00:12:35+00:00 CRITICAL syntax error, unexpected ',' in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\inc\custom-header.php on line 28
+
+2020-10-14T00:25:38+00:00 CRITICAL syntax error, unexpected ')', expecting ';' or ',' in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php on line 42
+
+2020-10-14T00:26:00+00:00 CRITICAL syntax error, unexpected ')', expecting ';' or ',' in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php on line 42
+
+2020-10-14T00:26:15+00:00 CRITICAL syntax error, unexpected ')', expecting ';' or ',' in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php on line 42
+

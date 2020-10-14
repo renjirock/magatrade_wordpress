@@ -1,0 +1,113 @@
+2020-10-09T10:03:58+00:00 CRITICAL Uncaught Error: Call to a member function walk() on string in C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php:608
+Stack trace:
+#0 C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php(228): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#1 C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php(52): wp_nav_menu(Object(stdClass))
+#2 C:\nurvo\htdocs\wordpress\wp-includes\template.php(730): require_once('C:\\nurvo\\htdocs...')
+#3 C:\nurvo\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\nurvo\\htdocs...', true, Array)
+#4 C:\nurvo\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#5 C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\page.php(15): get_header()
+#6 C:\nurvo\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\nurvo\\htdocs...')
+#7 C:\nurvo\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\nurvo\\htdocs...')
+#8 C:\nurvo\htdocs\wordpress\index.php(17): require('C:\\nurvo in C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php on line 608
+
+2020-10-09T10:04:17+00:00 CRITICAL Uncaught Error: Call to a member function walk() on string in C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php:608
+Stack trace:
+#0 C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php(228): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#1 C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php(52): wp_nav_menu(Object(stdClass))
+#2 C:\nurvo\htdocs\wordpress\wp-includes\template.php(730): require_once('C:\\nurvo\\htdocs...')
+#3 C:\nurvo\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\nurvo\\htdocs...', true, Array)
+#4 C:\nurvo\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#5 C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\page.php(15): get_header()
+#6 C:\nurvo\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\nurvo\\htdocs...')
+#7 C:\nurvo\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\nurvo\\htdocs...')
+#8 C:\nurvo\htdocs\wordpress\index.php(17): require('C:\\nurvo in C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php on line 608
+
+2020-10-09T10:28:51+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php on line 57
+
+2020-10-09T10:40:25+00:00 CRITICAL require_once(): Failed opening required '/inc/custom_walker_menu.php' (include_path='C:\nurvo\php\PEAR') in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\functions.php on line 221
+
+2020-10-09T10:40:56+00:00 CRITICAL require_once(): Failed opening required 'custom_walker_menu.php' (include_path='C:\nurvo\php\PEAR') in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\functions.php on line 221
+
+2020-10-09T10:49:55+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 8
+
+2020-10-09T10:49:57+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 8
+
+2020-10-09T11:07:54+00:00 CRITICAL syntax error, unexpected ''algo'' (T_CONSTANT_ENCAPSED_STRING) in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 6
+
+2020-10-09T11:08:09+00:00 CRITICAL syntax error, unexpected '$item' (T_VARIABLE) in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 6
+
+2020-10-09T11:08:15+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php:6
+Stack trace:
+#0 C:\nurvo\htdocs\wordpress\wp-includes\class-wp-walker.php(144): Custom_Walker_Nav_Menu->start_el('', Object(WP_Post), 0, Object(stdClass))
+#1 C:\nurvo\htdocs\wordpress\wp-includes\class-wp-walker.php(244): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '')
+#2 C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php(608): Walker->walk(Array, 0, Object(stdClass))
+#3 C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php(228): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#4 C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php(57): wp_nav_menu(Object(stdClass))
+#5 C:\nurvo\htdocs\wordpress\wp-includes\template.php(730): require_once('C:\\nurvo\\htdocs...')
+#6 C:\nurvo\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\nurvo\\htdocs...', true, Array)
+#7 C:\nurvo\htdocs\wordpress\wp in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 6
+
+2020-10-09T11:08:56+00:00 CRITICAL syntax error, unexpected ',' in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 6
+
+2020-10-09T11:09:04+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php:6
+Stack trace:
+#0 C:\nurvo\htdocs\wordpress\wp-includes\class-wp-walker.php(144): Custom_Walker_Nav_Menu->start_el('', Object(WP_Post), 0, Object(stdClass))
+#1 C:\nurvo\htdocs\wordpress\wp-includes\class-wp-walker.php(244): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '')
+#2 C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php(608): Walker->walk(Array, 0, Object(stdClass))
+#3 C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php(228): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#4 C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php(57): wp_nav_menu(Object(stdClass))
+#5 C:\nurvo\htdocs\wordpress\wp-includes\template.php(730): require_once('C:\\nurvo\\htdocs...')
+#6 C:\nurvo\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\nurvo\\htdocs...', true, Array)
+#7 C:\nurvo\htdocs\wordpress\wp in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 6
+
+2020-10-09T11:10:02+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php:6
+Stack trace:
+#0 C:\nurvo\htdocs\wordpress\wp-includes\class-wp-walker.php(144): Custom_Walker_Nav_Menu->start_el('', Object(WP_Post), 0, Object(stdClass))
+#1 C:\nurvo\htdocs\wordpress\wp-includes\class-wp-walker.php(244): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '')
+#2 C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php(608): Walker->walk(Array, 0, Object(stdClass))
+#3 C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php(228): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#4 C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php(57): wp_nav_menu(Object(stdClass))
+#5 C:\nurvo\htdocs\wordpress\wp-includes\template.php(730): require_once('C:\\nurvo\\htdocs...')
+#6 C:\nurvo\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\nurvo\\htdocs...', true, Array)
+#7 C:\nurvo\htdocs\wordpress\w in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 6
+
+2020-10-09T11:13:11+00:00 CRITICAL syntax error, unexpected ''<li>'' (T_CONSTANT_ENCAPSED_STRING) in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 37
+
+2020-10-09T11:13:11+00:00 CRITICAL syntax error, unexpected ''<li>'' (T_CONSTANT_ENCAPSED_STRING) in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 37
+
+2020-10-09T11:16:48+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 37
+
+2020-10-09T11:17:15+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 38
+
+2020-10-09T11:19:00+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php:45
+Stack trace:
+#0 C:\nurvo\htdocs\wordpress\wp-includes\class-wp-walker.php(144): Custom_Walker_Nav_Menu->start_el('<li class="nav-...', Object(WP_Post), 0, Object(stdClass))
+#1 C:\nurvo\htdocs\wordpress\wp-includes\class-wp-walker.php(244): Walker->display_element(Object(WP_Post), Array, 0, 0, Array, '<li class="nav-...')
+#2 C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php(608): Walker->walk(Array, 0, Object(stdClass))
+#3 C:\nurvo\htdocs\wordpress\wp-includes\nav-menu-template.php(228): walk_nav_menu_tree(Array, 0, Object(stdClass))
+#4 C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php(57): wp_nav_menu(Object(stdClass))
+#5 C:\nurvo\htdocs\wordpress\wp-includes\template.php(730): require_once('C:\\nurvo\\htdocs...')
+#6 C:\nurvo\htdocs\wordpress\wp-includes\template.php(676): load_template('C:\\nurvo\\htdocs...', true, A in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 45
+
+2020-10-09T11:24:58+00:00 CRITICAL syntax error, unexpected ';' in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 57
+
+2020-10-09T11:31:17+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php on line 77
+
+2020-10-09T11:35:39+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php on line 77
+
+2020-10-09T11:39:01+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php on line 68
+
+2020-10-09T11:43:43+00:00 CRITICAL syntax error, unexpected ',' in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\inc\custom-header.php on line 27
+
+2020-10-09T12:28:54+00:00 CRITICAL syntax error, unexpected ''>'' (T_CONSTANT_ENCAPSED_STRING) in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\custom_walker_menu.php on line 57
+
+2020-10-09T12:44:50+00:00 CRITICAL syntax error, unexpected end of file in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php on line 81
+
+2020-10-09T12:45:18+00:00 CRITICAL syntax error, unexpected end of file in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php on line 81
+
+2020-10-09T12:45:35+00:00 CRITICAL syntax error, unexpected '<', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php on line 68
+
+2020-10-09T12:45:55+00:00 CRITICAL syntax error, unexpected end of file in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\header.php on line 80
+
+2020-10-09T13:05:23+00:00 CRITICAL syntax error, unexpected 'endif' (T_ENDIF), expecting end of file in C:\nurvo\htdocs\wordpress\wp-content\themes\megatrade_global\template-parts\content-page.php on line 31
+
