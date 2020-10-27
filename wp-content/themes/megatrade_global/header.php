@@ -37,7 +37,7 @@
 <div id="page" class="site">
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
 		<div class="container">
-			<a href="" class="navbar-brand nav-link js-scroll-trigger">
+			<a href="<?php echo esc_url( get_permalink( 26 ) ); ?>" class="navbar-brand nav-link js-scroll-trigger">
 				<!-- Logo Image -->
 				<img src="<?php echo esc_url( get_header_image() ); ?>" width="150" alt="<?php echo esc_attr( get_bloginfo( 'title' ) )?>" class="d-inline-block align-middle mr-2">
 			</a>
